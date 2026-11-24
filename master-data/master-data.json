@@ -1,0 +1,189 @@
+{
+  "organizations": [
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_175653",
+      "registrationNumber": "ORG175653170",
+      "verifiedAt": "2026-11-23T12:27:12.889Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_181117",
+      "registrationNumber": "ORG181117136",
+      "verifiedAt": "2026-11-23T12:41:32.713Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_183844",
+      "registrationNumber": "ORG183844169",
+      "verifiedAt": "2026-11-23T13:09:03.761Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_184243",
+      "registrationNumber": "ORG184243199",
+      "verifiedAt": "2026-11-23T13:13:23.199Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_184523",
+      "registrationNumber": "ORG184523127",
+      "verifiedAt": "2026-11-23T13:15:48.390Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_20261123_184821",
+      "registrationNumber": "ORG184821167",
+      "verifiedAt": "2026-11-23T13:18:42.319Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_ORG1_20261123_190428",
+      "registrationNumber": "ORG190428113",
+      "verifiedAt": "2026-11-23T13:34:52.482Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_ORG2_20261123_190428",
+      "registrationNumber": "ORG190428367",
+      "verifiedAt": "2026-11-23T13:35:11.562Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_ORG1_20261124_103634",
+      "registrationNumber": "ORG103634119",
+      "verifiedAt": "2026-11-24T05:06:56.822Z"
+    },
+    {
+      "id": null,
+      "name": "PW_ORG_ORG2_20261124_103634",
+      "registrationNumber": "ORG103634371",
+      "verifiedAt": "2026-11-24T05:07:05.718Z"
+    }
+  ],
+  "facilities": [
+    {
+      "id": null,
+      "name": "PW_FAC_A_20261123_175653",
+      "organizationId": null,
+      "key": "A",
+      "verifiedAt": "2026-11-23T12:27:34.859Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_A_20261123_184523",
+      "organizationId": null,
+      "key": "A",
+      "verifiedAt": "2026-11-23T13:16:16.559Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_A_20261123_184821",
+      "organizationId": null,
+      "key": "A",
+      "verifiedAt": "2026-11-23T13:19:12.926Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_A_20261123_190428",
+      "organizationId": null,
+      "key": "A",
+      "verifiedAt": "2026-11-23T13:35:44.735Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_B_20261123_190428",
+      "organizationId": null,
+      "key": "B",
+      "verifiedAt": "2026-11-23T13:35:54.579Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_A_20261124_103634",
+      "organizationId": null,
+      "key": "A",
+      "verifiedAt": "2026-11-24T05:07:26.348Z"
+    },
+    {
+      "id": null,
+      "name": "PW_FAC_B_20261124_103634",
+      "organizationId": null,
+      "key": "B",
+      "verifiedAt": "2026-11-24T05:07:33.096Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": null,
+      "email": "pw.doc.20261123-175653.5@example.com",
+      "name": "Priya Menon",
+      "verifiedAt": "2026-11-23T12:27:54.059Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-175653.7@example.com",
+      "name": "Arjun Sharma",
+      "verifiedAt": "2026-11-23T12:28:07.662Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-184523.5@example.com",
+      "name": "Kiran Rao",
+      "verifiedAt": "2026-11-23T13:16:36.780Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-184523.7@example.com",
+      "name": "Rohan Reddy",
+      "verifiedAt": "2026-11-23T13:16:47.477Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-184821.5@example.com",
+      "name": "Rohan Reddy",
+      "verifiedAt": "2026-11-23T13:19:37.236Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-184821.7@example.com",
+      "name": "Kiran Rao",
+      "verifiedAt": "2026-11-23T13:19:48.774Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-190428.9@example.com",
+      "name": "Divya Gupta",
+      "verifiedAt": "2026-11-23T13:36:19.305Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-190428.11@example.com",
+      "name": "Vikram Reddy",
+      "verifiedAt": "2026-11-23T13:36:36.204Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261123-190428.13@example.com",
+      "name": "Divya Menon",
+      "verifiedAt": "2026-11-23T13:36:58.388Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261124-103634.9@example.com",
+      "name": "Meera Patel",
+      "verifiedAt": "2026-11-24T05:07:53.367Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261124-103634.11@example.com",
+      "name": "Arjun Sharma",
+      "verifiedAt": "2026-11-24T05:08:08.593Z"
+    },
+    {
+      "id": null,
+      "email": "pw.doc.20261124-103634.13@example.com",
+      "name": "Rohan Sharma",
+      "verifiedAt": "2026-11-24T05:08:23.529Z"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "_help": [
+    "Specialities / consultation modes are NUMBERS. Find them with:  npm run list:catalog   (search: npm run list:catalog -- cardio)",
+    "Or open helpers/specialities.ts and helpers/consultation-modes.ts - the number is written next to each name.",
+    "facility.specialities: list of speciality numbers.  doctor.speciality: ONE speciality number (must be in the facility list).",
+    "doctor.consultationMode: a mode number, or AUTO = the mode that fits the doctor's speciality (Pediatric -> Pediatrics, etc.).",
+    "organizations: a LIST - add another block to create another organization. facility.organizationKey says which one it belongs to (empty = the first). Facility keys must be unique; a doctor's facilities must all be in one organization."
+  ],
+  "execution": {
+    "mode": "CREATE"
+  },
+  "organizations": [
+    {
+      "key": "ORG1",
+      "enabled": true,
+      "name": "AUTO",
+      "address": {
+        "line1": "12 Banjara Hills Road",
+        "line2": "",
+        "pincode": "500081",
+        "city": "Hyderabad",
+        "expectedState": "Telangana",
+        "expectedCountry": "India"
+      },
+      "identity": {
+        "gstin": "",
+        "pan": "",
+        "tan": "",
+        "registrationNumber": "AUTO",
+        "logo": ""
+      },
+      "contact": {
+        "phone": "AUTO",
+        "email": "AUTO",
+        "website": "AUTO"
+      },
+      "socialLinks": {
+        "facebook": "AUTO",
+        "instagram": "AUTO",
+        "linkedin": "AUTO",
+        "youtube": "AUTO"
+      },
+      "billing": {
+        "currencyCode": "INR"
+      },
+      "applicationAccess": {
+        "admin": true,
+        "opdBilling": true,
+        "pharmacy": false,
+        "ipd": true
+      }
+    },
+    {
+      "key": "ORG2",
+      "enabled": true,
+      "name": "AUTO",
+      "address": {
+        "line1": "45 MG Road",
+        "line2": "",
+        "pincode": "560001",
+        "city": "Bengaluru",
+        "expectedState": "Karnataka",
+        "expectedCountry": "India"
+      },
+      "identity": {
+        "gstin": "",
+        "pan": "",
+        "tan": "",
+        "registrationNumber": "AUTO",
+        "logo": ""
+      },
+      "contact": {
+        "phone": "AUTO",
+        "email": "AUTO",
+        "website": "AUTO"
+      },
+      "socialLinks": {
+        "facebook": "AUTO",
+        "instagram": "AUTO",
+        "linkedin": "AUTO",
+        "youtube": "AUTO"
+      },
+      "billing": {
+        "currencyCode": "INR"
+      },
+      "applicationAccess": {
+        "admin": true,
+        "opdBilling": true,
+        "pharmacy": false,
+        "ipd": true
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "organizationKey": "ORG1",
+      "enabled": true,
+      "key": "A",
+      "name": "AUTO",
+      "type": "Hospital",
+      "email": "AUTO",
+      "phone": "AUTO",
+      "registrationFee": 500,
+      "facilityHeadUserId": null,
+      "addressLine1": "1 Hospital Road",
+      "addressLine2": "",
+      "gstin": "",
+      "pan": "",
+      "tan": "",
+      "registrationNumber": "AUTO",
+      "defaultVisitLocation": "Main OPD",
+      "specialities": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "organizationKey": "ORG2",
+      "enabled": true,
+      "key": "B",
+      "name": "AUTO",
+      "type": "Hospital",
+      "email": "AUTO",
+      "phone": "AUTO",
+      "registrationFee": 500,
+      "facilityHeadUserId": null,
+      "addressLine1": "1 Hospital Road",
+      "addressLine2": "",
+      "gstin": "",
+      "pan": "",
+      "tan": "",
+      "registrationNumber": "AUTO",
+      "defaultVisitLocation": "Main OPD",
+      "specialities": [
+        2,
+        3,
+        5
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "enabled": true,
+      "count": 2,
+      "firstName": "AUTO",
+      "lastName": "AUTO",
+      "displayName": "AUTO",
+      "gender": "Female",
+      "dateOfBirth": "AUTO",
+      "speciality": 2,
+      "consultationMode": "AUTO",
+      "email": "AUTO",
+      "phone": "AUTO",
+      "description": "AUTO",
+      "anaesthesiaEnabled": false,
+      "registrationNumber": "AUTO",
+      "registrationCouncil": "National Medical Commission (NMC)",
+      "registrationYear": 2020,
+      "signature": "",
+      "portalPassword": "Test@12345",
+      "registrationDocument": "test-files/registration.pdf",
+      "qualification": {
+        "degree": "MBBS",
+        "institution": "AIIMS Delhi",
+        "yearOfPassing": 2018,
+        "certificateUrl": ""
+      },
+      "facilityAssignments": [
+        {
+          "facilityKey": "A",
+          "opdFee": 400,
+          "ipdFee": 800,
+          "teleFee": 200,
+          "primary": true
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "count": 1,
+      "firstName": "AUTO",
+      "lastName": "AUTO",
+      "displayName": "AUTO",
+      "gender": "Female",
+      "dateOfBirth": "AUTO",
+      "speciality": 2,
+      "consultationMode": "AUTO",
+      "email": "AUTO",
+      "phone": "AUTO",
+      "description": "AUTO",
+      "anaesthesiaEnabled": false,
+      "registrationNumber": "AUTO",
+      "registrationCouncil": "National Medical Commission (NMC)",
+      "registrationYear": 2020,
+      "signature": "",
+      "portalPassword": "Test@12345",
+      "registrationDocument": "test-files/registration.pdf",
+      "qualification": {
+        "degree": "MBBS",
+        "institution": "AIIMS Delhi",
+        "yearOfPassing": 2018,
+        "certificateUrl": ""
+      },
+      "facilityAssignments": [
+        {
+          "facilityKey": "B",
+          "opdFee": 400,
+          "ipdFee": 800,
+          "teleFee": 200,
+          "primary": true
+        }
+      ]
+    }
+  ]
+}

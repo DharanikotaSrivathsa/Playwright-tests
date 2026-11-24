@@ -1,0 +1,25 @@
+{
+  "name": "hospital-playwright-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JSON-driven Playwright suite: Organization -> Facility -> Doctor setup",
+  "scripts": {
+    "check:data": "tsx scripts/check-data.ts",
+    "list:catalog": "tsx scripts/list-catalog.ts",
+    "test": "playwright test",
+    "test:org": "playwright test tests/01-organization.spec.ts",
+    "test:facility": "playwright test tests/02-facility.spec.ts",
+    "test:doctor": "playwright test tests/03-doctor.spec.ts",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.24.6"
+  }
+}

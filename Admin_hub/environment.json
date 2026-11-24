@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "login": "/login",
+    "orgList": "/organizations",
+    "orgCreate": "/organizations/create",
+    "orgEdit": "/organizations/{id}/edit",
+    "facilityList": "/facilities",
+    "facilityCreate": "/facilities/create",
+    "doctorList": "/doctors",
+    "doctorCreate": "/doctors/create"
+  }
+}
